@@ -13,9 +13,9 @@
 
 **Фактический результат:**
 - В результатах отображаются объявления с ценой выше 16000
-Автотест:
-- Файл: `categoryFilterCheck.test.ts`
-- Тест: `PD-01: Базовая проверка`
+
+  **[Автотест: `priceRangeCheck.test.ts`](https://github.com/ParamovP/-Ismagilova-QA-trainee-assignment-spring-2026/blob/6b5b1ec3a552473b372cb8955e691964de4e41c7/TASK-2/tests/searchTests/priceRangeCheck.test.ts)**
+Тест: `PD-01: Базовая проверка`
 
 **Ожидаемый результат:**
 - Отображаются только объявления с ценой в диапазоне 2000–16000
@@ -34,9 +34,8 @@
 
 **Фактический результат:**
 - результаты выдачи не меняются, отображаются объявления без отметки "Срочно"
-Автотест:
-- Файл: `onlyUrgentCheck.test.ts`
-- Тест: `Проверка работы тогла «Только срочные»`
+
+  **[Автотест: `onlyUrgentCheck.test.ts`](https://github.com/ParamovP/-Ismagilova-QA-trainee-assignment-spring-2026/blob/6b5b1ec3a552473b372cb8955e691964de4e41c7/TASK-2/tests/searchTests/onlyUrgentCheck.test.ts)**
 
 **Ожидаемый результат:**
 - в выдаче отображаются только объявления со знаком "Срочно"
@@ -56,9 +55,8 @@
 
 **Фактический результат:**
 - при нажатии на кнопку "Включить автообновление" ничего не происходит
-Автотест:
-- Файл: `refreshTimer.test.ts`
-- Тест: `Проверка работы кнопки остановки и запуска таймера`
+
+  **[Автотест: `refreshTimer.test.ts`](https://github.com/ParamovP/-Ismagilova-QA-trainee-assignment-spring-2026/blob/6b5b1ec3a552473b372cb8955e691964de4e41c7/TASK-2/tests/statTests/refreshTimer.test.ts)
 
 **Ожидаемый результат:**
 - при нажатии на кнопку "Включить автообновление" возвращается отображение таймера и полоски отсчета
