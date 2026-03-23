@@ -17,8 +17,7 @@ export default defineConfig({
         launchOptions: {
             slowMo: 1000,
         },
-        // Настройку headless отключить по умолчанию
-        headless: false,
+        headless: true,
         // Настройку разрешения задать по умолчанию
         viewport: { width: 1920, height: 1080 },
     },

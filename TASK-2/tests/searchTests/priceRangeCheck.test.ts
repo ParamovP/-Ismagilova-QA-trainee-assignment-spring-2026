@@ -3,7 +3,7 @@ import { priceTestData } from '../../helpers/priceTestData';
 import { MainPage } from '../../pages/mainPage/mainPage';
 
 test.describe('Проверка работы фильтров на диапазон цены', () => {
-    // берем тестовые наборы данных для позитивных проверок из хелпера
+ // берем тестовые наборы данных для позитивных проверок из хелпера
   for (const { id, from, to, description } of priceTestData) {
     test(`${id}: ${description}`, async ({ page }) => {
         const mainPage = new MainPage(page);
